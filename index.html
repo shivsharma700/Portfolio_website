@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Shiv Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8def4e82b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div>
+                    <span class="firstName" ><span class="firstLetter" >S</span>hiv.</span>
+                </div>
+                <ul id="sidemenu" >
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Shiv</span><br> Sharma From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>As a seasoned Frontend Developer, I bring a wealth of expertise in crafting seamless and visually stunning web experiences. My skill set encompasses a mastery of HTML, CSS, and JavaScript, with a particular proficiency in TypeScript. Leveraging the power of React.js and Next.js, I excel in building dynamic and responsive user interfaces. My ability to architect scalable applications is further enhanced by a deep understanding of state management through technologies like Redux. With a passion for staying at the forefront of web development trends, I am dedicated to creating innovative and user-friendly solutions that elevate digital experiences.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')" >Projects</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="skills tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><i class="icons fa-brands fa-html5"></i> <span>HTML</span></li>
+                            <li><i class="icons fa-brands fa-css3"></i> <span>CSS</span></li>
+                            <li><i class="icons fa-brands fa-node-js"></i> <span>Javascript</span>  </li>
+                            <li><i class="icons fa-brands fa-node-js"></i> <span>Typescript</span>  </li>
+                            <li><i class="icons fa-brands fa-react"></i> <span>React.js</span> </li>
+                            <li> <img src="/images/Nextjs2.png.jpg" alt=""> <span>Next.js</span> </li>
+                            <li><i class="icons fa-brands fa-react"></i> <span>Redux</span> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents projects " id="projects">
+                        <ul>
+                            <li>
+                                <span>Movie Streaming App</span>
+                                <a target="_blank" href="https://movie-streaming-app-delta.vercel.app">Link</a> 
+                            </li>
+                            <li>
+                                <span>Crypto Verse</span> 
+                                <a target="_blank"  href="https://cryptoapp-kappa.vercel.app">Link</a> 
+                            </li>
+                            <li>
+                                <span>Static Ui</span>
+                                <a target="_blank"  href="https://company-assignment-six.vercel.app">Link</a> 
+                            </li>
+                            <li>
+                                <span>E-commerce website</span>  
+                                <a target="_blank"  href="https://github.com/shivsharma700/ShopCart">Link</a> 
+                            </li>
+                            <li>
+                                <span>CRM App</span> 
+                                <a target="_blank"  href="https://github.com/shivsharma700/crm-app">Link</a> 
+                            </li>
+                            <li>
+                                <span>Movie Searching App</span> 
+                                <a target="_blank"  href="https://movie-search-app-three-weld.vercel.app">Link</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span> <br> Frontend Development Training at Relevel by Unacademy </li>
+                            <li><span>2018</span> <br> Secondary Schooling</li>
+                            <li><span>2016</span> <br> High Schooling </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------portfolio-------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" >My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Movie Streaming App</h3>
+                        <p>Crafted with HTML, CSS, and JavaScript for a user-friendly interface, the app is powered by React.js and Redux for enhanced interactivity and state management. Immerse yourself in a world of entertainment with this skillfully developed application.</p>
+                        <a target="_blank" href="https://movie-streaming-app-delta.vercel.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Crypto App</h3>
+                        <p> Crypto App, Meticulously designed using HTML, CSS, and JavaScript, the app boasts a dynamic and responsive interface. Leveraging the power of React.js and Redux, it ensures seamless user experience and efficient state management, while Chart.js integration provides insightful visualizations for real-time market data. Stay informed and engaged with our skillfully crafted Crypto App.</p>
+                        <a target="_blank" href="https://cryptoapp-kappa.vercel.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>E-commerce App</h3>
+                        <p>Explore the future of online shopping with our E-commerce App. Utilizing HTML, CSS, and JavaScript, the app delivers a visually appealing and intuitive user interface. Powered by React.js and enriched with Context API, it offers a seamless and personalized shopping experience, ensuring convenience and satisfaction for every user.</p>
+                        <a target="_blank" href="https://github.com/shivsharma700/ShopCart"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn" >See more</a>
+        </div>
+    </div>
+    <!-- ------- contact ------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" >Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> mansotra.shiv@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7006015877</p>
+                    <a href="/images/Shiv_Sharma_2Resume.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg" ></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2024 Shiv Sharma. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxK5_MTzNksibXqaCzT50yP9mdZ48tjeGsP4RE5_FWefrCyjh7TcyrDcWiJBcljJXNk/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
